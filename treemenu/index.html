@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="fontello/css/fontello.css">
+<style>
+    * {
+        margin:0;
+    }
+    html, body {
+        height: 100%;
+        overflow: hidden;
+    }
+    .tree {
+        list-style:none;
+        width: 20%;
+        height: 100%;
+        padding-top : 10px;
+        background-color: #DEDEDE;
+    }
+    .tree ul{
+        list-style:none;
+        padding-left: 20px;
+    }
+    .tree *:before{
+        width:20px;
+        display: inline-block;
+    }
+    .tree label{
+        cursor: pointer
+    }
+    .tree label:before{
+        content:'\e802';
+        font-family: fontello;
+    }
+    .tree a:before{
+        content:'\f15c';
+        font-family: fontello;
+    }
+    .tree input[type="checkbox"]{
+        display: none;
+    }
+    .tree input[type="checkbox"]:checked~ul{
+        display: none;
+    }
+    .tree input[type="checkbox"]:checked+label:before{
+        content:'\e801';
+        font-family: fontello;
+    }
+</style>
+</head>
+<body>  
+    <ul class="tree">
+        <li>
+            <input type="checkbox" id="root">
+            <label for="root">test page</label>
+            <ul>
+                <li><a href="treemenu.html">page</a></li>
+                <li>
+                    <input type="checkbox" id="node">
+                    <label for="node">develop</label>
+                    <ul>
+                        <li><a href="treemenu.html">html</a></li>
+                        <li><a href="treemenu.html">css</a></li>
+                        <li><a href="treemenu.html">fontello</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

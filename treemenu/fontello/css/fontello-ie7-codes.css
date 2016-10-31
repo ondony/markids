@@ -1,0 +1,7 @@
+
+.icon-link { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.icon-folder { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.icon-folder-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.icon-doc-text-inv { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf15c;&nbsp;'); }
+.icon-hand-grab-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf255;&nbsp;'); }
+.icon-hand-paper-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf256;&nbsp;'); }
